@@ -2,7 +2,7 @@ How to sucessfully run this code
 Through docker:  
     1. Clone the repository and Go inside the WEATHERCHECK folder  
     2. Open the command line and run following  
-        # docker compose build  
+        # docker compose build --no-cache
         # docker compose up  
     3. Then goto the browser and use the local host "http://localhost:8080/"  
     4. Then Enter Latitude and longitude upto 2 decimal digit as it is coded to take upto 2 decimal. 
