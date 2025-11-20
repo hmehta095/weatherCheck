@@ -6,8 +6,9 @@ Through docker:
         # docker compose run  
     3. Then goto the browser and use the local host "http://localhost:8080/"  
     4. Then Enter Latitude and longitude upto 2 decimal digit as it is coded to take upto 2 decimal. 
-    <Added the screenshot of the result>  
+    |||Sample result|||  
     ![alt text](image.png)
+    ![alt text](image-1.png)
 
 
 To run app individually:    
