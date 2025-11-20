@@ -24,5 +24,6 @@ async def weather(
     async with httpx.AsyncClient() as client:
         r = await client.get(url, params=params)
     data = r.json()
+    print("Fetched data",  data)
     temp = data.get("current_weather", {}).get("temperature")
     return {"temperature": temp}
