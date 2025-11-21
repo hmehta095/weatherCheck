@@ -23,7 +23,7 @@
         const response = await fetch(`http://localhost:8000/weather?latitude=${lat}&longitude=${lon}`);
         const data = await response.json();
         if (data.temperature !== undefined)
-          document.getElementById('result').textContent = `Temperature: ${data.temperature} °C`;
+          document.getElementById('result').textContent = `Temperature: ${data.temperature} °C <br> Report: ${data.report}`;
         else
           document.getElementById('result').textContent = "No data found.";
       } catch (err) {
