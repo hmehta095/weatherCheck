@@ -4,6 +4,8 @@ services:
     build: ./backend
     ports:
       - "8000:8000"
+    environment:
+      OPENAI_API_KEY: "${OPENAI_API_KEY}"
   frontend:
     build: ./frontend
     ports:
