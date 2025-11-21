@@ -5,7 +5,7 @@ services:
     ports:
       - "8000:8000"
     environment:
-      OPENAI_API_KEY: "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"
+      OPENAI_API_KEY: "${OPENAI_API_KEY}"
   frontend:
     build: ./frontend
     ports:
